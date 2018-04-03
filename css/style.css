@@ -1,0 +1,44 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:raleway;
+}
+
+#main_container{
+	width: 65%;
+	height: 100%;
+	margin-left: 17%;
+	margin-top: 5%;
+	position: relative;
+}
+
+h2{
+	font-family:raleway;
+}
+div#envelope{
+	position: relative;
+	width: 51%;
+	border: 1px solid #CFCFD0;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+div#content{
+	width: 100%;
+	padding:12px auto;
+	overflow: hidden;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	border-radius: 0 0 10px 10px;
+}
+
+header#sign_in{
+	font-family:raleway;
+	background-color: #079BAE;
+	text-align: center;
+	padding-top: 12px;
+	padding-left: 5px;
+	padding-bottom: 8px;
+	margin-bottom: -8px;
+	border-radius: 10px 10px 0 0;
+	color: white;
+}
